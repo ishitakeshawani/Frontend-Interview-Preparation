@@ -7,7 +7,7 @@ const Btn = () => {
   return (
     <div>
       {show && <p>Loading text</p>}
-      <button onClick={() => setshow(false)}>Loaded</button>
+      <button onClick={() => setshow(!show)}>Loaded</button>
       <br />
       <br />
     </div>
