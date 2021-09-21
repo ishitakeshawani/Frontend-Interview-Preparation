@@ -2,7 +2,7 @@ import { React, useState } from "react";
 
 // Create a web app with a button loded. Show a text loading... on a web app. However, hide it if I click on the button loaded.
 
-const Btn = () => {
+const Q6 = () => {
   const [show, setshow] = useState(true);
   return (
     <div>
@@ -12,6 +12,6 @@ const Btn = () => {
       <br />
     </div>
   );
-};
+};  
 
-export default Btn;
+export default Q6;
