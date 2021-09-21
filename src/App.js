@@ -5,6 +5,7 @@ import Q11 from "./Q11";
 import Q1 from "./Q1";
 import Q2 from "./Q2";
 import Q3 from "./Q3";
+import Q4 from "./Q4";
 
 export default function App() {
   return (
@@ -45,6 +46,10 @@ export default function App() {
       Create a web app where I can input a text. Now, create three buttons h1, h2, h3. When I click on any of the button, the text should become h1, h2, or h3.
       <br /><br />
       <Q3 />
+      <br /><br />
+      Create a web app where I can input a text. Now, create three buttons: red, green, blue. Clicking on the button should change the text color.
+      <br /><br />
+      <Q4 />
       <br /><br />
     </div>
   );
