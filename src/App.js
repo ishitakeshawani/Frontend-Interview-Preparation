@@ -8,6 +8,7 @@ import Q3 from "./Q3";
 import Q4 from "./Q4";
 import Q14 from "./Q14";
 import Q16 from "./Q16";
+import Q17 from "./Q17";
 
 export default function App() {
   return (
@@ -45,7 +46,15 @@ export default function App() {
       Based on the button clicked perform the operation on the two inputs.
       You can do this in React or vanillaJS based on your choice.
       Your time starts now.
+      <br />
+      <br />
       <Q1 />
+      <br />
+      <br />
+      Create a CLI app which would detect fake news. This app will take news as input and then source.If source is Facebook or whatsapp then it will output user saying, "Don't believe things on FB and Whatsapp". Can you extend this to include telegram as well?
+      <br />
+      <br />
+      <Q17 />
       <br />
       <br />
       Create a web app where I can input a text. Now create two buttons + and -. On clicking + increase the fontSize by 2px and vice versa.
