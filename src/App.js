@@ -6,6 +6,8 @@ import Q1 from "./Q1";
 import Q2 from "./Q2";
 import Q3 from "./Q3";
 import Q4 from "./Q4";
+import Q14 from "./Q14";
+import Q16 from "./Q16";
 
 export default function App() {
   return (
@@ -27,6 +29,15 @@ export default function App() {
       <br />
       <br />
       <Q11 />
+      <br />
+      <br />
+      Create two objects with name, age, and yuga as Ram, 25, Treta. Krishna, 31, Dwapar. Write a function which takes two objects and return the person with more age.
+      <Q14 />
+      <br />
+      <br />
+      Create two objects with name, age, and power as Ram, 2500, Treta. Krishna, 2325, Dwapar. Say if every character in name is worth 35 power points.
+      Write a function which takes two objects and return the person with more power based on their name and power both.
+      <Q16 />
       <br />
       <br />
       Create a web app which would take two inputs.
