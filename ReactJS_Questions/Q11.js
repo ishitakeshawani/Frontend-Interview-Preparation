@@ -1,38 +1,14 @@
-import "./styles.css";
-import { React, useEffect, useState } from "react";
+// create counter in react.js
 
-// Create a password checker web app. If password is lesser than 10 characters then show an error to user otherwise show success. Someone can ask to make the submit button disabled. Some can ask to make the input field green or red depending on input.
-const Q11 = () => {
-  const [password, setpassword] = useState("");
-  const [show, setshow] = useState(true);
-  const [value, setvalue] = useState(false);
+import React, { useState } from "react";
 
-  useEffect(() => {
-    if (password.length > 10) {
-      // setvalue(false);
-      setshow(false);
-    } else if (password.length < 10) {
-      setshow(true);
-      setvalue(false);
-    }
-  }, [password]);
-
-  const checkit = () => {
-    // setshow(false);
-    setvalue(true);
-  };
-
+export default function Q11() {
+  const [v, setv] = useState(0);
   return (
     <div className="App">
-      <input type="password" onChange={(e) => setpassword(e.target.value)} />
-      <br />
-      <br />
-      <button disabled={show} onClick={checkit}>
-        submit
-      </button>
-      <p>{value ? password : " "}</p>
+      <h1>{v}</h1>
+      <button onClick={() => setv((prevState) => prevState + 1)}>+</button>
+      <button onClick={() => setv((prevState) => prevState - 1)}>-</button>
     </div>
   );
-};
-
-export default Q11;
+}

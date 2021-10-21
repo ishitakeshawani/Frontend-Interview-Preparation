@@ -1,7 +1,9 @@
+// Play with API and get the desired response
+
 import "./styles.css";
 import React, { useState } from "react";
 
-export default function Q18() {
+export default function Q10() {
   const [v, setv] = useState("write here");
   const url = "https://api.publicapis.org/entries";
   const fetchApi = () => {
