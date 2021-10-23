@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@400&display=swap");
+
+* {
+  font-family: "Mali", cursive;
+}
+
+body {
+  background-color: #3d47af;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.card {
+  background: #0a155a;
+  color: white;
+}
+
+.btn {
+  color: white;
+  background: #d103fc;
+  align-items: flex-end;
+  font-family: "Mali", cursive;
+}
+
+.btn:hover {
+  color: #d103fc;
+  background-color: white;
+}
+
+.btn::after {
+  color: #d103fc;
+  background-color: white;
+}
+
+.txt {
+  font-family: "Mali", cursive;
+}
+
+.container {
+  width: 50%;
+}
+
+#searchbar {
+  border: 1px solid white;
+  border-radius: 15px;
+  color: #0a155a;
+  width: 35%;
+  text-align: center;
+  margin-right: 10px;
+  color: white;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+}
+
+.add-item-form {
+  margin-bottom: 5em;
+}
+
+.add-item-form .btn:active {
+  margin-top: 5px;
+}
