@@ -1,0 +1,20 @@
+:root{
+    --primary-color:red;
+    --secondary-color:green;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .one,h1{
+    color: var(--primary-color)
+  }
+  
+  .two,h2{
+    color: var(--secondary-color)
+  }
+  
+  
+  
