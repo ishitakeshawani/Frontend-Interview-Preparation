@@ -1,0 +1,15 @@
+import "./styles.css";
+import React, { useState } from "react";
+
+export default function App() {
+  const [checked, setChecked] = useState(false);
+  return (
+    <div className="App">
+      <input
+        type="checkbox"
+        onChange={() => setChecked((checked) => !checked)}
+      />
+      <p>{checked && "checked"}</p>
+    </div>
+  );
+}
