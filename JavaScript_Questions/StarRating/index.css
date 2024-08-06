@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star{
+    font-size: 2em;
+    cursor: pointer;
+}
+
