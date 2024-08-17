@@ -1,12 +1,13 @@
-document.querySelector("#grandParent").addEventListener("click",()=>{
+document.querySelector("#grandParent").addEventListener("click",(event)=>{
     console.log('GrandParent clicked');
-},true) // capturing
+},true)
 
-document.querySelector("#parent").addEventListener("click",()=>{
+document.querySelector("#parent").addEventListener("click",(event)=>{
     console.log('Parent clicked');
-},false)  // bubbling
+    event.stopPropagation()
+},true)  
 
 
 document.querySelector("#child").addEventListener("click",()=>{
     console.log('Child clicked');
-},true) // capturing
+},true) 
